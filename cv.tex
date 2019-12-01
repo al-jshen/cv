@@ -1,10 +1,10 @@
-\documentclass[12pt]{res}
+\documentclass[10pt]{res}
 % margins
-\usepackage[top=1in, bottom=1in, left=1in, right=1in]{geometry}
+\usepackage[top=0.5in, bottom=0.5in, left=1in, right=1in]{geometry}
 % font
-\usepackage[cmintegrals,cmbraces]{newtxmath}
-\usepackage{ebgaramond-maths}
-\usepackage[T1]{fontenc}
+%\usepackage[cmintegrals,cmbraces]{newtxmath}
+%\usepackage{ebgaramond-maths}
+%\usepackage[T1]{fontenc}
 % no indent for new paragraphs and sections
 \setlength{\parindent}{0in}
 \newsectionwidth{0pt}
@@ -12,29 +12,106 @@
 \usepackage[colorlinks,allcolors={blue}]{hyperref}
 % symbols 
 \usepackage{fontawesome}
+% tables 
+\usepackage{tabularx}
+% page numbers
+\pagestyle{plain}
 
 % new commands
-\newcommand{\sechead}[1]{\section{\large \textbf{#1}}\vspace{-0.2cm}\rule{\textwidth}{0.2pt}}
+\newcommand{\sechead}[1]{\section{\large \textbf{#1}}\vspace{-0.2cm}\rule{\textwidth}{0.2pt}\vspace{-0.4cm}}
 
 \begin{document}
 
-\name{\huge\normalfont Jeff Shen}
+\textit{Revised \today}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Name
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\name{\normalfont{\huge Jeff Shen}} %\\[0.2cm] Curriculum Vitae}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Header left column entries
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \address{%
     \faEnvelopeO: \href{mailto:jshenschool@gmail.com}{jshenschool@gmail.com} \\
     \faPhone: +1 437-345-1552
 }
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Header right column entries
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \address{%
     \faGithub: \href{https://github.com/al-jshen}{github.com/al-jshen} \\
     \faLinkedin: \href{https://linkedin.com/in/jeff-shen}{linkedin.com/in/jeff-shen}
 }
-    
 
 \begin{resume}
-    
+   
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Any random introductory bits and bobs go here.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% testing
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Education
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \sechead{Education}
+
 \textbf{H.B.Sc.}, Mathematics and Statistics \hfill 2018-2022 \\
 University of Toronto, Toronto, ON
+
+\sechead{Technical Skills}
+
+\textbf{Data}: Python, Numpy, Pandas, PyTorch, Scikit-Learn, Matplotlib, Seaborn, SQL, NoSQL, R, Excel \\
+\textbf{Other}: shell scripting, vim, version control (git), cloud computing (AWS, Azure, Google Cloud Platform), Unix/Linux, Astropy, Selenium, NLTK, \LaTeX, regular expressions
+
+
+\sechead{Relevant Coursework}
+
+\begin{tabularx}{\textwidth}{lX}
+    2019 Fall & Stars and Planets \\
+    2019 Fall & Probability and Statistics I \\
+    2019 Fall & Ordinary Differential Equations \\
+    2019 Summer & Multivariable Calculus \\
+    2019 Winter & Introduction to Computer Science \\
+    2018-2019 & Calculus \\
+    2018-2019 & Linear Algebra I, II \\
+    2018 Fall & An Introduction to Statistical Reasoning and Data Science \\
+\end{tabularx}
+
+\sechead{Independent Coursework}
+
+\begin{tabularx}{\textwidth}{lX}
+    2019 & \textbf{Data-Driven Astronomy}, Coursera \\
+    & Pulsars, black holes, exoplanets, stellar evolution, galaxies. Image stacking, crossmatching, data management, regression, classification. Implementation in Python with Astropy, and SQL. \\
+    2019 & \textbf{Intro to Deep Learning with PyTorch}, Udacity \\
+    & Mathematics of neural networks. Data preparation. Image classification with CNNs and OpenCV. Time series with RNNs. Implementation in Python with PyTorch. \\
+    2018 & \textbf{Intro to Machine Learning}, Udacity \\
+    & Classifiers (na\"ive Bayes, SVMs, ensemble methods), data processing, regression, clustering, outlier detection, PCA, evaluation metrics. Implementation in Python with sklearn.\\
+\end{tabularx}
+
+\sechead{Volunteering}
+
+\begin{tabularx}{\textwidth}{lX}
+    2015-2018 & \textbf{Python Workshop Lead}, Sir Winston Churchill Secondary, Vancouver, B.C. \\
+    & Coordinated and delivered workshops to prepare students for a national programming contest.
+\end{tabularx}
+
+\sechead{Projects}
+
+\begin{tabularx}{\textwidth}{lX}
+
+    2019 & \textbf{Image classification with CNNs} \\
+    & Cleaned a dataset of several thousands of images of flowers. Optimized a deep learning model and applied cutting-edge techniques to achieve 99\% accuracy in the classification of species of flowers. Could potentially be adapted for classifcation of astronomical objects. \\
+    2018 & \textbf{Analysis of global Internet usage statistics} \\
+    & Spearheaded the programming aspect of a collaborative statistical analysis project. Proposed research questions and used R to develop data-backed answers. Gave a presentation of results. \\
+
+\end{tabularx}
+
+\sechead{Interests}
+
+\textbf{Languages}: English (native), French, Chinese, Norwegian (conversational) \\
+\textbf{Other}: \mbox{*}nix customization, urban beekeeping, baking, reading, computer programming
 
 \end{resume}
 
