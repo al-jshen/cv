@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1575175134 "cv.tex" "cv.pdf" "cv" 1575175135
+["pdflatex"] 1575216261 "cv.tex" "cv.pdf" "cv" 1575216261
   "/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc" 1463430686 2679 32dd8ae231bf4a0752b98f62dc097183 ""
   "/usr/local/texlive/2019/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
@@ -49,8 +49,8 @@
   "/usr/local/texlive/2019/texmf-var/web2c/pdftex/pdflatex.fmt" 1557342086 4259635 562fc36ec496993777a6c428d8bfb811 ""
   "/usr/local/texlive/2019/texmf.cnf" 1557341546 577 d150fef99ac436ad1156e86b0892f6ef ""
   "cv.aux" 1575080125 8 a94a2480d3289e625eea47cd1b285758 ""
-  "cv.tex" 1575175134 4456 2926b7e1c585fb21dfedf6be49ebab2c ""
+  "cv.tex" 1575216260 8060 8a00df9ffa8de2214f77d6904a9fff1d ""
   "res.cls" 1575079031 25066 8ec1e15ab4c53340bc92863668c7be49 ""
   (generated)
-  "cv.pdf"
   "cv.log"
+  "cv.pdf"
