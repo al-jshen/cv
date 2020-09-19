@@ -10,8 +10,10 @@
 % no indent for new paragraphs and sections
 \setlength{\parindent}{0in}
 \newsectionwidth{0pt}
-% links
-\usepackage[colorlinks,allcolors={blue}]{hyperref}
+% links and their colours
+\usepackage[svgnames]{xcolor} % see https://www.latextemplates.com/svgnames-colors
+\usepackage{hyperref}
+\hypersetup{colorlinks=true,urlcolor=DarkSlateBlue}
 % symbols 
 \usepackage{fontawesome}
 % tables 
@@ -71,16 +73,26 @@ University of Toronto
 \sechead{Research Experience}
 
 \begin{tabularx}{\textwidth}{lX}
-    2020 Summer & \textbf{Summer Undergraduate Research Program} \\
+    2020 Aug. - Present & \textbf{Undergraduate Research Course} \\
+    & \textit{Canadian Institute for Theoretical Astrophysics} \\
+    & Supervised by \href{https://www.astro.utoronto.ca/~eadie/cover.html}{Prof. Gwendolyn Eadie} and \href{https://www.cita.utoronto.ca/~murray/}{Prof. Norman Murray}. Study of mass distribution of the Milky Way in a Bayesian framework. \\
+    2020 May - 2020 Aug. & \textbf{Summer Undergraduate Research Program} \\
     & \textit{Dunlap Institute for Astronomy and Astrophysics, University of Toronto} \\
-    & Supervised by Dr. Allison Man. 
+    & Supervised by \href{https://www.dunlap.utoronto.ca/dunlap-people/dr-allison-man/}{Dr. Allison Man}. Study of molecular gas in a strongly-lensed protocluster system at $z \approx 2.9$. \\
+\end{tabularx}
+
+\sechead{Honours and Awards}
+
+\begin{tabularx}{\textwidth}{lX}
+    2020 & \textbf{Summer Undergraduate Research Program Award (\$9,500 CAD)} \\
+	 & Dunlap Institute for Astronomy and Astrophysics, University of Toronto
 \end{tabularx}
 
 \sechead{Independent Coursework}
 
 \begin{tabularx}{\textwidth}{lX}
     2020 & \textbf{Practical Time Series Analysis}, The State University of New York (Coursera) \\
-	 & Random walks, moving average processes. Stationarity, differencing, ACF, PACF, autocovariance. MA processes, AR processes, AR-MA duality. Backshift operator, difference equations, Yule-Walker matrix equations. AIC, SSE, model selection. ARMA and ARIMA models. Seasonality, SARIMA models. Exponential smoothing, Holt-Winters, forecasting. \\
+	 & Stationarity, differencing, ACF, PACF, autocovariance. MA processes, AR processes, AR-MA duality. Backshift operator, difference equations, Yule-Walker matrix equations. AIC, SSE, model selection. ARMA and ARIMA models. Seasonality, SARIMA. Exponential smoothing, forecasting. \\
     2019 & \textbf{Data-Driven Astronomy}, The University of Sydney (Coursera) \\
     & Pulsars, black holes, exoplanets, stellar evolution, distances, redshift, galaxy classification. Image stacking, algorithm analysis, crossmatching, databases, regression, classification, machine learning. Implementation in Python with Astropy; SQL. \\
     2019 & \textbf{Intro to Deep Learning with PyTorch}, Udacity \\
@@ -103,8 +115,8 @@ University of Toronto
 \sechead{Outreach}
 
 \begin{tabularx}{\textwidth}{lX}
-    2019 - Present & \textbf{Space Science Journalist (Current in Space segment)}, \textit{The Star Spot} podcast \\
-    & Write and record stories about the latest research and news in astronomy.
+    2019 - Present & \textbf{Space Science Journalist (Current in Space segment)}, \href{https://thestarspot.ca/}{\textit{The Star Spot} podcast} \\
+    & Curate, write and record stories about the latest research and news in astronomy. Episodes 177 - present.
 \end{tabularx}
 
 \sechead{Volunteering}
@@ -114,7 +126,7 @@ University of Toronto
     & Coordinated and delivered workshops to prepare students for national programming contest.
 \end{tabularx}
 
-%\newpage
+\newpage
 
 \sechead{Relevant Coursework}
 
