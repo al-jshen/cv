@@ -20,6 +20,8 @@
 \usepackage{tabularx}
 % page numbers
 %\pagestyle{plain}
+% no widows
+\usepackage{needspace}
 
 % new commands
 \newcommand{\sechead}[1]{\vspace{-0.2cm}\section{\large \textbf{#1}}\vspace{-0.2cm}\rule{\textwidth}{0.2pt}\vspace{-0.4cm}}
@@ -46,7 +48,7 @@
 \address{%
     \faGithub: \href{https://github.com/al-jshen}{github.com/al-jshen} \\
     \faLinkedin: \href{https://linkedin.com/in/jeff-shen}{linkedin.com/in/jeff-shen} \\
-    \faGlobe: \href{https://jshen.org}{jshen.org}
+    \faGlobe: \href{https://jshen.ca}{jshen.ca}
 }
 
 \begin{resume}
@@ -65,23 +67,26 @@
 \textbf{H.B.Sc.}, Statistics, Astronomy \& Astrophysics, Mathematics \hfill 2018-2022 \\
 University of Toronto
 
+\needspace{5\baselineskip}
 \sechead{Technical Skills}
 
-\textbf{Data}: Python, NumPy, SciPy, Pandas, PyTorch, Scikit-Learn, Matplotlib, Stan, Seaborn, SQL, NoSQL, R, Excel \\
+\textbf{Data}: Python, NumPy, SciPy, Pandas, PyTorch, Scikit-Learn, Matplotlib, Stan, Seaborn, SQL, NoSQL, R \\
 \textbf{Web}: HTML5, CSS3, JavaScript, React (Native), Redux, Node, Express.js, Flask \\
 \textbf{Other}: Rust, Docker, shell scripting, vim, version control (git), cloud computing (AWS, Azure, Google Cloud Platform), Unix/Linux, SymPy, Astropy, Selenium, NLTK, \LaTeX, regular expressions
 
+\needspace{5\baselineskip}
 \sechead{Research Experience}
 
 \begin{tabularx}{\textwidth}{lX}
     2020 Aug. - Present & \textbf{Undergraduate Research Course} \\
     & \textit{Canadian Institute for Theoretical Astrophysics} \\
-    & Supervised by \href{https://www.astro.utoronto.ca/~eadie/cover.html}{Prof. Gwendolyn Eadie} and \href{https://www.cita.utoronto.ca/~murray/}{Prof. Norman Murray}. Study of mass distribution of the Milky Way in a Bayesian framework. \\
+    & Supervised by \href{https://www.astro.utoronto.ca/~eadie/intro.html}{Prof. Gwendolyn Eadie} and \href{https://www.cita.utoronto.ca/~murray/}{Prof. Norman Murray}. Study of mass distribution of the Milky Way in a Bayesian framework. \\
     2020 May - 2020 Aug. & \textbf{Summer Undergraduate Research Program} \\
     & \textit{Dunlap Institute for Astronomy and Astrophysics, University of Toronto} \\
-    & Supervised by \href{https://www.dunlap.utoronto.ca/dunlap-people/dr-allison-man/}{Dr. Allison Man}. Study of molecular gas in a strongly-lensed protocluster system at $z \approx 2.9$. \\
+    & Supervised by \href{https://www.dunlap.utoronto.ca/dunlap-people/dr-allison-man/}{Dr. Allison Man}. Study of molecular gas in a strongly-lensed protocluster system at $z \approx 2.9$. Awarded best poster in student competition. \\
 \end{tabularx}
 
+\needspace{5\baselineskip}
 \sechead{Honours and Awards}
 
 \begin{tabularx}{\textwidth}{lX}
@@ -89,6 +94,15 @@ University of Toronto
 	 & Dunlap Institute for Astronomy and Astrophysics, University of Toronto
 \end{tabularx}
 
+\needspace{5\baselineskip}
+\sechead{Publications}
+
+\begin{tabularx}{\textwidth}{lX}
+    2020 October & \textbf{Jeff Shen}, Allison W. S. Man, Johannes Zabl, Zhi-Yu Zhang, Mikkel Stockmann, Gabriel Brammer, and Katherine E. Whitaker. "Molecular gas in a gravitationally lensed galaxy group at $z=2.9$", submitted to \textit{ApJ}.
+\end{tabularx}
+
+
+\needspace{5\baselineskip}
 \sechead{Independent Coursework}
 
 \begin{tabularx}{\textwidth}{lX}
@@ -102,17 +116,22 @@ University of Toronto
     & Classifiers (na\"ive Bayes, SVMs, ensemble methods), data processing, feature selection, regression, clustering, outlier detection, PCA, evaluation metrics. Implementation in Python with scikit-learn.\\
 \end{tabularx}
 
-%\sechead{Projects}
-%
-%\begin{tabularx}{\textwidth}{lX}
-%
-%    2019 & \textbf{Image classification with CNNs} \\
-%	 & Cleaned a dataset of several thousands of images of flowers. Optimized a deep learning model in Python and applied cutting-edge techniques to achieve 99\% accuracy in the classification of species of flowers. Could potentially be adapted for classifcation of astronomical objects. \\
-%    2018 & \textbf{Analysis of global Internet usage statistics} \\
-%	 & Spearheaded the programming aspect of a collaborative statistical analysis project. Proposed research questions and used R to develop data-backed answers. Gave a presentation of results. \\
+\needspace{5\baselineskip}
+\sechead{Projects}
 
-\end{tabularx}
+\begin{tabularx}{\textwidth}{lX}
 
+    2020 & \textbf{Parallelized ray tracer} \\
+         & Implemented a parallelized ray tracer from mathematical first principles in Rust. \\
+    2020 & \textbf{Markov Chain Monte Carlo in Rust} \\ 
+         & Implemented a Markov chain Monte Carlo sampler from scratch in Rust. Built on a custom statistics crate. \\
+    2019 & \textbf{Image classification with CNNs} \\
+	 & Cleaned a dataset of several thousands of images of flowers. Optimized a deep learning model with PyTorch and applied cutting-edge techniques to achieve 99\% accuracy in the classification of species of flowers. Could potentially be adapted for classifcation of astronomical objects. \\
+    2018 & \textbf{Analysis of global Internet usage statistics} \\
+	 & Spearheaded the programming aspect of a collaborative statistical analysis project. Proposed research questions and used R to develop data-backed answers. Gave a presentation of results.
+ \end{tabularx}
+
+\needspace{5\baselineskip}
 \sechead{Outreach}
 
 \begin{tabularx}{\textwidth}{lX}
@@ -120,6 +139,7 @@ University of Toronto
     & Curate, write and record stories about the latest research and news in astronomy. Episodes 177 - present.
 \end{tabularx}
 
+\needspace{5\baselineskip}
 \sechead{Volunteering}
 
 \begin{tabularx}{\textwidth}{lX}
@@ -127,28 +147,28 @@ University of Toronto
     & Coordinated and delivered workshops to prepare students for national programming contest.
 \end{tabularx}
 
-\newpage
+% \needspace{5\baselineskip}
+% \sechead{Relevant Coursework}
 
-\sechead{Relevant Coursework}
+% \begin{tabularx}{\textwidth}{lX}
+%     2020 Fall & Real Analysis \\
+%     2020 Fall & Regression Analysis \\ 
+%     2020 Fall & Practical Astronomy \\
+%     2020 Winter & Galaxies and Cosmology \\
+%     2020 Winter & Practical Physics I \\
+%     2020 Winter & Electricity and Magnetism \\
+%     2020 Winter & Thermodynamics and Statistical Mechanics \\
+%     2019 - 2020 & Probability and Statistics I, II \\
+%     2019 Fall & Stars and Planets \\
+%     2019 Fall & Ordinary Differential Equations \\
+%     2019 Summer & Multivariable Calculus \\
+%     2019 Winter & Computer Science \\
+%     2018 - 2019 & Calculus \\
+%     2018 - 2019 & Linear Algebra I, II \\
+%     2018 Fall & Statistical Reasoning and Data Science \\
+% \end{tabularx}
 
-\begin{tabularx}{\textwidth}{lX}
-    2020 Fall & Real Analysis \\
-    2020 Fall & Regression Analysis \\ 
-    2020 Fall & Practical Astronomy \\
-    2020 Winter & Galaxies and Cosmology \\
-    2020 Winter & Practical Physics I \\
-    2020 Winter & Electricity and Magnetism \\
-    2020 Winter & Thermodynamics and Statistical Mechanics \\
-    2019 - 2020 & Probability and Statistics I, II \\
-    2019 Fall & Stars and Planets \\
-    2019 Fall & Ordinary Differential Equations \\
-    2019 Summer & Multivariable Calculus \\
-    2019 Winter & Computer Science \\
-    2018 - 2019 & Calculus \\
-    2018 - 2019 & Linear Algebra I, II \\
-    2018 Fall & Statistical Reasoning and Data Science \\
-\end{tabularx}
-
+\needspace{5\baselineskip}
 \sechead{Interests}
 
 \textbf{Languages}: English (native), French, Chinese, Norwegian (basic) \\

@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1600491468 "cv.tex" "cv.pdf" "cv" 1600491468
+["pdflatex"] 1604644976 "cv.tex" "cv.pdf" "cv" 1604644976
   "/home/js/texmf/tex/latex/hyperref/hpdftex.def" 1589664343 50570 2e81797743231d9037b0cbe3436d74ba ""
   "/home/js/texmf/tex/latex/hyperref/hyperref.sty" 1589664343 236775 8ab18a05f69e6caef423fa59cb0af03b ""
   "/home/js/texmf/tex/latex/hyperref/nameref.sty" 1579642962 13244 0070bcab7b5a88187847128d22faf4d8 ""
@@ -57,6 +57,7 @@
   "/usr/share/texmf-dist/tex/latex/kvoptions/kvoptions.sty" 1591545468 22520 c4c2dab203104295e1e618be7e5c0f5b ""
   "/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def" 1591545468 25742 5de23a2d2bc67a3139433e702e64a437 ""
   "/usr/share/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty" 1591545468 5766 13a9e8766c47f30327caf893ece86ac8 ""
+  "/usr/share/texmf-dist/tex/latex/needspace/needspace.sty" 1591524854 852 0e34dbb72efc69fa07602405ad95585e ""
   "/usr/share/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty" 1591545468 19989 e08c4750d96640367c4b141017eda013 ""
   "/usr/share/texmf-dist/tex/latex/refcount/refcount.sty" 1591545468 9878 9e94e8fa600d95f9c7731bb21dfb67a4 ""
   "/usr/share/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1591545468 9715 b051d5b493d9fe5f4bc251462d039e5f ""
@@ -67,11 +68,11 @@
   "/usr/share/texmf-dist/tex/latex/xcolor/svgnam.def" 1591545468 4620 ef4794ae13f75d0c199ba494bc41ff4b ""
   "/usr/share/texmf-dist/tex/latex/xcolor/xcolor.sty" 1591545468 55589 34128738f682d033422ca125f82e5d62 ""
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1591545468 33301 a3134070eacafb10b1f371612ce2650d ""
-  "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1598321650 4722494 275df5914db1caff181d497785de7185 ""
-  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1598321642 2514047 3f70d0e1d2d9a85d12e1e46fb8bf9f30 ""
+  "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1602040107 4722494 275df5914db1caff181d497785de7185 ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1602040088 2514044 4b71516f4546bfb2f5798463614aca58 ""
   "cv.aux" 1587778526 8 a94a2480d3289e625eea47cd1b285758 ""
-  "cv.tex" 1600491466 7061 35e9126bd7c6fae88177c25267d201ad ""
+  "cv.tex" 1604644975 8120 f8bbd82d9f4bf476fd2715797ee50267 ""
   "res.cls" 1587778526 25066 8ec1e15ab4c53340bc92863668c7be49 ""
   (generated)
-  "cv.log"
   "cv.pdf"
+  "cv.log"

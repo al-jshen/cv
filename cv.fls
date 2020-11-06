@@ -85,6 +85,8 @@ INPUT /usr/share/texmf-dist/tex/latex/tools/tabularx.sty
 INPUT /usr/share/texmf-dist/tex/latex/tools/tabularx.sty
 INPUT /usr/share/texmf-dist/tex/latex/tools/array.sty
 INPUT /usr/share/texmf-dist/tex/latex/tools/array.sty
+INPUT /usr/share/texmf-dist/tex/latex/needspace/needspace.sty
+INPUT /usr/share/texmf-dist/tex/latex/needspace/needspace.sty
 INPUT /usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 INPUT /usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 INPUT cv.aux
