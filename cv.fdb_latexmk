@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1619210261 "cv.tex" "cv.pdf" "cv" 1619210261
+["pdflatex"] 1620610652 "cv.tex" "cv.pdf" "cv" 1620610652
   "/home/js/texmf/tex/latex/hyperref/hpdftex.def" 1589664343 50570 2e81797743231d9037b0cbe3436d74ba ""
   "/home/js/texmf/tex/latex/hyperref/hyperref.sty" 1589664343 236775 8ab18a05f69e6caef423fa59cb0af03b ""
   "/home/js/texmf/tex/latex/hyperref/nameref.sty" 1579642962 13244 0070bcab7b5a88187847128d22faf4d8 ""
@@ -70,10 +70,10 @@
   "/usr/share/texmf-dist/tex/latex/xcolor/svgnam.def" 1617738065 4620 ef4794ae13f75d0c199ba494bc41ff4b ""
   "/usr/share/texmf-dist/tex/latex/xcolor/xcolor.sty" 1617738065 55589 34128738f682d033422ca125f82e5d62 ""
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1617738065 39911 2da6c67557ec033436fe5418a70a8a61 ""
-  "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1618254124 5040116 bcb7f02849a1aaf755d92a15beaab845 ""
-  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1618254114 2812665 698dfba94066ea285ba8fb6e09cfb83f ""
+  "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1620100034 5040116 bcb7f02849a1aaf755d92a15beaab845 ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1620100017 2812673 667cba4a45c5ec040806cfad188e623d ""
   "cv.aux" 1587778526 8 a94a2480d3289e625eea47cd1b285758 ""
-  "cv.tex" 1619210259 9577 4d4118b9559319c0a7c71d5991e17faf ""
+  "cv.tex" 1620610651 9831 a28d43417a1a9874f25ca2a4a04cdee3 ""
   "res.cls" 1587778526 25066 8ec1e15ab4c53340bc92863668c7be49 ""
   (generated)
   "cv.pdf"
