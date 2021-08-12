@@ -1,6 +1,6 @@
 \documentclass[10pt]{article}
 % margins
-\usepackage[top=0.5in, bottom=0.5in, left=1in, right=1in]{geometry}
+\usepackage[top=0.5in, bottom=0.6in, left=1in, right=1in]{geometry}
 % font
 %\usepackage[cmintegrals,cmbraces]{newtxmath}
 %\usepackage{ebgaramond-maths}
@@ -18,7 +18,7 @@
 % symbols
 \usepackage{fontawesome}
 % tables
-\usepackage{tabularx}
+\usepackage{xltabular}
 % page numbers
 %\pagestyle{plain}
 % no widows
@@ -56,8 +56,7 @@
 \hrule height 0.15mm
 \vspace{2mm}
 
-\textbf{H.B.Sc.}, Statistics, Astronomy \& Astrophysics, Mathematics \hfill 2018-2022 \\
-University of Toronto
+\textbf{H.B.Sc.}, University of Toronto (Statistics, Astronomy \& Astrophysics, Mathematics) \hfill 2018-2022 
 
 \needspace{5\baselineskip}
 \vspace{-2mm}
@@ -66,17 +65,19 @@ University of Toronto
 \hrule height 0.15mm
 \vspace{2mm}
 
-\begin{tabularx}{\textwidth}{lX}
+\begin{xltabular}{\textwidth}{lX}
   2021 May - 2021 Aug & \textbf{Undergraduate Summer Research Fellowship} \\
                       & \textit{Canadian Institute for Theoretical Astrophysics} \\
-                      & Lorem ipsum dolor sit amet, consectetur adipiscing elit... \\
+                      & Continued previous work on the mass distribution of the Milky Way. Collaborated with members of the \href{http://h3survey.rc.fas.harvard.edu/}{H3 Survey} and published a first-author paper in \textit{ApJ}. \\
+                      & Began a project with \href{https://joshspeagle.github.io/}{Josh Speagle} using normalizing flows to make probabilistic predictions of the ages of stars. \\
+                      & Began a project with Norm Murray using Stan to fit dynamical models to geological data from thermal tides. \\
   2020 Aug - 2021 May & \textbf{Undergraduate Research Course} \\
                       & \textit{Canadian Institute for Theoretical Astrophysics} \\
-                      & Supervised by \href{https://www.astro.utoronto.ca/~eadie/intro.html}{Prof. Gwendolyn Eadie} and \href{https://www.cita.utoronto.ca/~murray/}{Prof. Norman Murray}. Study of mass distribution of the Milky Way in a Bayesian framework. Implemented a hierarchical Bayesian model for modelling the mass of galactic halos using an adaptive gradient-based sampling algorithm, increasing computational efficiency by two orders of magnitude over existing code. \\
+                      & Supervised by \href{https://www.astro.utoronto.ca/~eadie/intro.html}{Prof. Gwendolyn Eadie} and \href{https://www.cita.utoronto.ca/~murray/}{Prof. Norman Murray}. Study of mass distribution of the Milky Way in a Bayesian framework. Implemented a hierarchical Bayesian model for modelling the mass of galactic halos using a gradient-based sampling algorithm, increasing computational efficiency by two orders of magnitude over existing code. \\
   2020 May - 2020 Aug & \textbf{Summer Undergraduate Research Program} \\
                       & \textit{Dunlap Institute for Astronomy and Astrophysics, University of Toronto} \\
-                      & Supervised by \href{https://phas.ubc.ca/users/allison-man}{Prof. Allison Man}. Study of molecular gas in a strongly-lensed galaxy group at $z=2.9$. Awarded best poster in student competition. Analyzed ALMA data to infer molecular gas masses in several high-redshift galaxies. Resulted in a first-author publication.
-\end{tabularx}
+                      & Supervised by \href{https://phas.ubc.ca/users/allison-man}{Prof. Allison Man}. Study of molecular gas in a strongly-lensed galaxy group at $z=2.9$. Analyzed ALMA data to infer molecular gas masses in several high-redshift galaxies. Resulted in a first-author publication.
+\end{xltabular}
 
 \needspace{5\baselineskip}
 \vspace{-2mm}
@@ -86,61 +87,65 @@ University of Toronto
 \vspace{2mm}
 
 \begin{etaremune}
-\item \textbf{Jeff Shen}, Gwendolyn M. Eadie, Norman Murray, Dennis Zaritsky, Joshua S. Speagle, et al. ``Estimating the Mass Distribution of the Milky Way with Bayesian Multilevel Models, the No-U-Turn Sampler, and Halo Stars from the H3 Survey'', in prep.
+\item \textbf{Jeff Shen}, Gwendolyn M. Eadie, Norman Murray, Dennis Zaritsky, Joshua S. Speagle, Yuan-Sen Ting, Charlie Conroy, Phillip A. Cargile, Benjamin D. Johnson, Rohan P. Naidu, Jiwon Jesse Han. ``The Mass of the Milky Way from the H3 Survey'', submitted to \textit{ApJ}.
 \item \textbf{Jeff Shen}, Allison W. S. Man, Johannes Zabl, Zhi-Yu Zhang, Mikkel Stockmann, Gabriel Brammer, Katherine E. Whitaker, and Johan Richard. ``Molecular gas in a gravitationally lensed galaxy group at $z=2.9$'', accepted for publication in \textit{ApJ}. \url{https://arxiv.org/abs/2105.11572}
 \end{etaremune}
 
 
-\needspace{5\baselineskip}
+% \needspace{5\baselineskip}
 \vspace{-5mm}
 \section*{Honours and Awards}
 \vspace{-1.5mm}
 \hrule height 0.15mm
 \vspace{2mm}
 
-\begin{tabularx}{\textwidth}{lX}
+\begin{xltabular}{\textwidth}{lX}
   2021 May - 2021 Aug & \textbf{Undergraduate Summer Research Fellowship, (\$8396 CAD)} \\
                       & Canadian Institute for Theoretical Astrophysics, University of Toronto \\
   2020 May - 2020 Aug & \textbf{Summer Undergraduate Research Program Award (\$9,500 CAD)} \\
                       & Dunlap Institute for Astronomy and Astrophysics, University of Toronto
-\end{tabularx}
+\end{xltabular}
 
 
-\needspace{5\baselineskip}
+% \needspace{5\baselineskip}
 \vspace{-2mm}
 \section*{Presentations}
 \vspace{-1.5mm}
 \hrule height 0.15mm
 \vspace{2mm}
 
-\begin{tabularx}{\textwidth}{lX}
-  2021 May & \textbf{Stellar Stats Workshop, UofT/Online} \\
+\begin{xltabular}{\textwidth}{lX}
+  2021 August & \textbf{SDSS 2021 Collaboration Meeting, JHU/Online} \\*
+           & Lightning talk: ``Predicting the ages of stars with machine learning.'' \\
+  2021 May & \textbf{Stellar Stats Workshop, UofT/Online} \\*
            & Lightning talk: ``Estimating the mass distribution of the Milky Way with Bayesian multilevel models.'' \\
-  2021 May & \textbf{Canadian Astronomical Society (CASCA) AGM, Online} \\
+  2021 May & \textbf{Canadian Astronomical Society (CASCA) AGM, NRC Herzberg/Online} \\*
            & Poster presentation and lightning talk: ``Molecular gas in a gravitationally lensed galaxy group at z = 2.9.'' \\
-  2021 Apr & \textbf{Vancouver Area Cosmology Meeting, UBC/SFU/TRIUMF/Online} \\
+  2021 Apr & \textbf{Vancouver Area Cosmology Meeting, UBC/SFU/TRIUMF/Online} \\*
            & Presentation: ``Molecular gas in gravitationally lensed galaxies at z = 2.9.'' \\
-  2020 Oct & \textbf{REQUIEM Galaxies Telecon, Online} \\
-           & Presentation: ``Molecular gas in gravitationally lensed galaxies at z = 2.9.''
-\end{tabularx}
+  2020 Oct & \textbf{REQUIEM Galaxies Telecon, Online} \\*
+           & Presentation: ``Molecular gas in gravitationally lensed galaxies at z = 2.9.'' \\
+  2020 Aug & \textbf{Summer Undergraduate Research Program Poster Session, UofT/Online} \\*
+           & Poster presentation: ``Molecular gas in a gravitationally lensed galaxy group at z = 2.9.'' Awarded prize for one of top three posters. \\
+\end{xltabular}
 
 
-\needspace{5\baselineskip}
+% \needspace{5\baselineskip}
 \vspace{-2mm}
 \section*{Media}
 \vspace{-1.5mm}
 \hrule height 0.15mm
 \vspace{2mm}
 
-\begin{tabularx}{\textwidth}{lX}
+\begin{xltabular}{\textwidth}{lX}
   2021 Jul & \textbf{National Ratio Astronomy Organization (NRAO) eNews} \\
-           & Digital newsletter feature: ``Molecular gas in high redshift galaxies'', \textbf{Jeff Shen} and Allison Man. \url{https://science.nrao.edu/enews/14.7} \\
-\end{tabularx}
+           & Digital newsletter feature: ``Molecular gas in high redshift galaxies'', \textbf{Jeff Shen} and Allison Man. \url{https://science.nrao.edu/enews/14.7/index.shtml#molecular_gas} \\
+\end{xltabular}
 
 % \needspace{5\baselineskip}
 % \section*{Independent Coursework}
 
-% \begin{tabularx}{\textwidth}{lX}
+% \begin{xltabular}{\textwidth}{lX}
 %     2020 & \textbf{Practical Time Series Analysis}, The State University of New York (Coursera) \\
 %    & Stationarity, differencing, ACF, PACF, autocovariance. MA processes, AR processes, AR-MA duality. Backshift operator, difference equations, Yule-Walker matrix equations. AIC, SSE, model selection. ARMA and ARIMA models. Seasonality, SARIMA. Exponential smoothing, forecasting. \\
 %     2019 & \textbf{Data-Driven Astronomy}, The University of Sydney (Coursera) \\
@@ -149,12 +154,12 @@ University of Toronto
 %     & Mathematics of neural networks. Data preparation, regularization techniques. Image classification with CNNs and OpenCV. Time series with RNNs. Implementation in Python with PyTorch. \\
 %     2018 & \textbf{Intro to Machine Learning}, Udacity \\
 %     & Classifiers (na\"ive Bayes, SVMs, ensemble methods), data processing, feature selection, regression, clustering, outlier detection, PCA, evaluation metrics. Implementation in Python with scikit-learn.\\
-% \end{tabularx}
+% \end{xltabular}
 
 % \needspace{5\baselineskip}
 % \section*{Projects}
 
-% \begin{tabularx}{\textwidth}{lX}
+% \begin{xltabular}{\textwidth}{lX}
 
 %     2020 & \textbf{Parallelized ray tracer} \\
 %          & Implemented a parallelized ray tracer from mathematical first principles in Rust. \\
@@ -164,7 +169,7 @@ University of Toronto
 %    & Cleaned a dataset of several thousands of images of flowers. Optimized a deep learning model with PyTorch and applied cutting-edge techniques to achieve 99\% accuracy in the classification of species of flowers. Could potentially be adapted for classifcation of astronomical objects. \\
 %     2018 & \textbf{Analysis of global Internet usage statistics} \\
 %    & Spearheaded the programming aspect of a collaborative statistical analysis project. Proposed research questions and used R to develop data-backed answers. Gave a presentation of results.
-%  \end{tabularx}
+%  \end{xltabular}
 
 \needspace{5\baselineskip}
 \vspace{-2mm}
@@ -173,10 +178,10 @@ University of Toronto
 \hrule height 0.15mm
 \vspace{2mm}
 
-\begin{tabularx}{\textwidth}{lX}
+\begin{xltabular}{\textwidth}{lX}
   2019 - Present & \textbf{Space Science Journalist (Current in Space segment)}, \href{https://thestarspot.ca/}{\textit{The Star Spot} podcast} \\
                  & Curate, write and record stories about the latest research and news in astronomy. Episodes 177 - present.
-\end{tabularx}
+\end{xltabular}
 
 \needspace{5\baselineskip}
 \vspace{-2mm}
@@ -195,15 +200,15 @@ University of Toronto
 \hrule height 0.15mm
 \vspace{2mm}
 
-\begin{tabularx}{\textwidth}{lX}
+\begin{xltabular}{\textwidth}{lX}
   2015 - 2018 & \textbf{Python Workshop Lead}, Sir Winston Churchill Secondary, Vancouver, B.C. \\
               & Coordinated and delivered workshops to prepare students for national programming contest.
-\end{tabularx}
+\end{xltabular}
 
 % \needspace{5\baselineskip}
 % \section*{Relevant Coursework}
 
-% \begin{tabularx}{\textwidth}{lX}
+% \begin{xltabular}{\textwidth}{lX}
 %     2020 Fall & Real Analysis \\
 %     2020 Fall & Regression Analysis \\
 %     2020 Fall & Practical Astronomy \\
@@ -219,7 +224,7 @@ University of Toronto
 %     2018 - 2019 & Calculus \\
 %     2018 - 2019 & Linear Algebra I, II \\
 %     2018 Fall & Statistical Reasoning and Data Science \\
-% \end{tabularx}
+% \end{xltabular}
 
 % \needspace{5\baselineskip}
 % \section*{Interests}
