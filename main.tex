@@ -35,6 +35,13 @@
   \par\medskip
 }
 
+% hrule with custom vertical spacing
+\newcommand{\hrulesp}[1]{%
+  \vspace{-1.5mm}
+  \hrule height 0.15mm
+  \vspace{#1}
+}
+
 \begin{document}
 
 \headerline{%
@@ -52,25 +59,20 @@
 \needspace{5\baselineskip}
 \vspace{-2mm}
 \section*{Education}
-\vspace{-1.5mm}
-\hrule height 0.15mm
-\vspace{2mm}
+\hrulesp{2mm}
 
 \textbf{H.B.Sc.}, University of Toronto (Statistics, Astronomy \& Astrophysics, Mathematics) \hfill 2018-2022 
 
 \needspace{5\baselineskip}
 \vspace{-2mm}
 \section*{Research Experience}
-\vspace{-1.5mm}
-\hrule height 0.15mm
-\vspace{2mm}
+\hrulesp{-2mm}
 
 \begin{xltabular}{\textwidth}{lX}
   2021 May - 2021 Aug & \textbf{Undergraduate Summer Research Fellowship} \\
                       & \textit{Canadian Institute for Theoretical Astrophysics} \\
                       & Continued previous work on the mass distribution of the Milky Way. Collaborated with members of the \href{http://h3survey.rc.fas.harvard.edu/}{H3 Survey} and published a first-author paper in \textit{ApJ}. \\
-                      & Began a project with \href{https://joshspeagle.github.io/}{Josh Speagle} using normalizing flows to make probabilistic predictions of the ages of stars. \\
-                      & Began a project with Norm Murray using Stan to fit dynamical models to geological data from thermal tides. \\
+                      & Began a project with \href{https://joshspeagle.github.io/}{Josh Speagle} using normalizing flows to make probabilistic predictions of the ages of stars. Began a project with Norm Murray using Stan to fit dynamical models to geological data from thermal tides. \\
   2020 Aug - 2021 May & \textbf{Undergraduate Research Course} \\
                       & \textit{Canadian Institute for Theoretical Astrophysics} \\
                       & Supervised by \href{https://www.astro.utoronto.ca/~eadie/intro.html}{Prof. Gwendolyn Eadie} and \href{https://www.cita.utoronto.ca/~murray/}{Prof. Norman Murray}. Study of mass distribution of the Milky Way in a Bayesian framework. Implemented a hierarchical Bayesian model for modelling the mass of galactic halos using a gradient-based sampling algorithm, increasing computational efficiency by two orders of magnitude over existing code. \\
@@ -82,9 +84,7 @@
 \needspace{5\baselineskip}
 \vspace{-2mm}
 \section*{Refereed Publications}
-\vspace{-1.5mm}
-\hrule height 0.15mm
-\vspace{2mm}
+\hrulesp{2mm}
 
 \begin{etaremune}
 \item \textbf{Jeff Shen}, Gwendolyn M. Eadie, Norman Murray, Dennis Zaritsky, Joshua S. Speagle, Yuan-Sen Ting, Charlie Conroy, Phillip A. Cargile, Benjamin D. Johnson, Rohan P. Naidu, Jiwon Jesse Han. ``The Mass of the Milky Way from the H3 Survey'', submitted to \textit{ApJ}.
@@ -95,9 +95,7 @@
 % \needspace{5\baselineskip}
 \vspace{-5mm}
 \section*{Honours and Awards}
-\vspace{-1.5mm}
-\hrule height 0.15mm
-\vspace{2mm}
+\hrulesp{-2mm}
 
 \begin{xltabular}{\textwidth}{lX}
   2021 May - 2021 Aug & \textbf{Undergraduate Summer Research Fellowship, (\$8396 CAD)} \\
@@ -110,9 +108,7 @@
 % \needspace{5\baselineskip}
 \vspace{-2mm}
 \section*{Presentations}
-\vspace{-1.5mm}
-\hrule height 0.15mm
-\vspace{2mm}
+\hrulesp{-2mm}
 
 \begin{xltabular}{\textwidth}{lX}
   2021 August & \textbf{SDSS 2021 Collaboration Meeting, JHU/Online} \\*
@@ -133,9 +129,7 @@
 % \needspace{5\baselineskip}
 \vspace{-2mm}
 \section*{Media}
-\vspace{-1.5mm}
-\hrule height 0.15mm
-\vspace{2mm}
+\hrulesp{-2mm}
 
 \begin{xltabular}{\textwidth}{lX}
   2021 Jul & \textbf{National Ratio Astronomy Organization (NRAO) eNews} \\
@@ -174,9 +168,7 @@
 \needspace{5\baselineskip}
 \vspace{-2mm}
 \section*{Outreach}
-\vspace{-1.5mm}
-\hrule height 0.15mm
-\vspace{2mm}
+\hrulesp{-2mm}
 
 \begin{xltabular}{\textwidth}{lX}
   2019 - Present & \textbf{Space Science Journalist (Current in Space segment)}, \href{https://thestarspot.ca/}{\textit{The Star Spot} podcast} \\
@@ -186,9 +178,7 @@
 \needspace{5\baselineskip}
 \vspace{-2mm}
 \section*{Technical Skills}
-\vspace{-1.5mm}
-\hrule height 0.15mm
-\vspace{2mm}
+\hrulesp{2mm}
 
 \textbf{Data}: Stan, R, Python, NumPy, SciPy, Pandas, PyTorch, Scikit-Learn, Matplotlib, SQL \\
 \textbf{Other}: Rust, BLAS/LAPACK, Astropy, \LaTeX, regex, bash, vim, git, Docker, AWS, SymPy
@@ -196,9 +186,7 @@
 \needspace{5\baselineskip}
 \vspace{-2.5mm}
 \section*{Volunteering}
-\vspace{-1.5mm}
-\hrule height 0.15mm
-\vspace{2mm}
+\hrulesp{-2mm}
 
 \begin{xltabular}{\textwidth}{lX}
   2015 - 2018 & \textbf{Python Workshop Lead}, Sir Winston Churchill Secondary, Vancouver, B.C. \\
