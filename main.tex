@@ -1,6 +1,6 @@
 \documentclass[10pt]{extarticle}
 % margins
-\usepackage[letterpaper,top=0.4in, bottom=0.8in, left=0.9in, right=0.9in]{geometry}
+\usepackage[letterpaper,top=0.3in, bottom=0.75in, left=0.9in, right=0.9in]{geometry}
 % font
 %\usepackage[cmintegrals,cmbraces]{newtxmath}
 %\usepackage{ebgaramond-maths}
@@ -19,9 +19,22 @@
 \usepackage{fontawesome}
 % tables
 \usepackage{xltabular}
-% no page numbers
-% \pagenumbering{gobble}
-\pagestyle{plain}
+
+% page numbers --------------------------------------
+% \pagenumbering{gobble} % none
+\pagestyle{plain} % bottom middle 
+
+% \usepackage{fancyhdr}  % custom, bottom right
+% \pagestyle{fancy}
+% \renewcommand{\headrulewidth}{0pt}
+% \lhead{}
+% \chead{}
+% \rhead{}
+% \lfoot{}
+% \cfoot{}
+% \rfoot{\thepage}
+% ----------------------------------------------------
+
 % no widows
 \usepackage{needspace}
 % enumerate but backwards
@@ -65,15 +78,15 @@
 }
 
 \needspace{5\baselineskip}
-\vspace{-5mm}
+\vspace{-7mm}
 \section*{Education}
 \hrulesp{2mm}
 
 \textbf{H.B.Sc., University of Toronto} \hfill 2018-2022 \\
-Astronomy \& Astrophysics, Statistics, Mathematics. Dean's List Scholar.
+Majors in Astronomy \& Astrophysics and Statistics. Minor in Mathematics. 
 
 \needspace{5\baselineskip}
-\vspace{-5mm}
+\vspace{-6mm}
 \section*{Publications}
 \hrulesp{2mm}
 
@@ -84,7 +97,7 @@ Astronomy \& Astrophysics, Statistics, Mathematics. Dean's List Scholar.
 \end{etaremune}
 
 % \needspace{5\baselineskip}
-\vspace{-8mm}
+\vspace{-9mm}
 \section*{Research Experience}
 \hrulesp{-2mm}
 
@@ -102,10 +115,10 @@ Astronomy \& Astrophysics, Statistics, Mathematics. Dean's List Scholar.
   2021 May - Present & \textbf{Predicting the ages of stars with machine learning} \\*
                      & Supervisors: \href{https://joshspeagle.github.io/}{Dr. Joshua Speagle}, \href{https://neigef.github.io/}{Dr. Neige Frankel}, \href{https://jmackereth.github.io/}{Dr. J. Ted Mackereth} \\*
                      & Independent research. Probabilistic predictions of stellar ages using normalizing flows. Quantifying the contribution of stellar/Galactic information to age estimates. \\
-  2020 Aug - Present & \textbf{Estimating the mass of the Galaxy with Bayesian hierarchical models} \\*
+  2020 Aug - 2021 Nov & \textbf{Estimating the mass of the Galaxy with Bayesian hierarchical models} \\*
                       % & \textit{Canadian Institute for Theoretical Astrophysics} \\*
                       & Supervisors: \href{https://www.astro.utoronto.ca/~eadie/cover.html}{Prof. Gwendolyn Eadie}, \href{https://www.cita.utoronto.ca/~murray/}{Prof. Norman Murray}, \href{https://www.as.arizona.edu/people/faculty/dennis-zaritsky}{Dennis Zaritsky}, \href{https://joshspeagle.github.io/}{Dr. Joshua Speagle} \\*
-                      & Undergraduate fellowship with CITA. Developed a hierarchical Bayesian model for modelling the mass of the Galaxy using a fast and scalable sampling algorithm. Collaborated with the \href{http://h3survey.rc.fas.harvard.edu/}{H3 Survey} team and presented results in ApJ. \\
+                      & Undergraduate fellowship with the Canadian Institute for Theoretical Astrophysics (CITA). Developed a hierarchical Bayesian model for modelling the mass of the Galaxy using a fast and scalable sampling algorithm. Collaborated with the \href{http://h3survey.rc.fas.harvard.edu/}{H3 Survey} team and presented results in ApJ. \\
   2020 May - 2021 May & \textbf{Molecular gas in high-redshift galaxies with ALMA} \\*
                       % & \textit{Dunlap Institute for Astronomy and Astrophysics, University of Toronto} \\*
                       & Supervisor: \href{https://phas.ubc.ca/users/allison-man}{Prof. Allison Man} \\*
@@ -114,18 +127,27 @@ Astronomy \& Astrophysics, Statistics, Mathematics. Dean's List Scholar.
 
 
 \needspace{2\baselineskip}
+\vspace{-3mm}
 \section*{Honours and Awards}
 \hrulesp{-2mm}
 
 \begin{xltabular}{\textwidth}{lX}
+  2021 Jan - 2021 May & \textbf{Dean's List Scholar} \\*
+                      & University of Toronto \\
   2021 May - 2021 Aug & \textbf{Undergraduate Summer Research Fellowship, (\$8,396 CAD)} \\*
                       & Canadian Institute for Theoretical Astrophysics, University of Toronto \\
   2020 May - 2020 Aug & \textbf{Summer Undergraduate Research Program Award (\$9,500 CAD)} \\*
                       & Dunlap Institute for Astronomy and Astrophysics, University of Toronto
 \end{xltabular}
 
+
+% second page
+% change margins
+\newgeometry{top=0.6in, bottom=0.7in, left=0.9in, right=0.9in}
+
 \needspace{5\baselineskip}
-\section*{Presentations}
+\vspace{-5mm}
+\section*{Talks}
 \hrulesp{-2mm}
 
 \begin{xltabular}{\textwidth}{lX}
@@ -134,16 +156,25 @@ Astronomy \& Astrophysics, Statistics, Mathematics. Dean's List Scholar.
   2021 May & \textbf{Stellar Stats Workshop, UofT/Online} \\*
            & Lightning talk: ``Estimating the mass distribution of the Milky Way with Bayesian multilevel models.'' \\
   2021 May & \textbf{Canadian Astronomical Society (CASCA) AGM, NRC Herzberg/Online} \\*
-           & Poster presentation and lightning talk: ``Molecular gas in a gravitationally lensed galaxy group at z = 2.9.'' \\
+           & Lightning talk: ``Molecular gas in a gravitationally lensed galaxy group at z = 2.9.'' \\
   2021 Apr & \textbf{Vancouver Area Cosmology Meeting, UBC/SFU/TRIUMF/Online} \\*
-           & Talk: ``Molecular gas in gravitationally lensed galaxies at z = 2.9.'' \\
+           & ``Molecular gas in gravitationally lensed galaxies at z = 2.9.'' \\
   2020 Oct & \textbf{REQUIEM Galaxies Telecon, Online} \\*
-           & Talk: ``Molecular gas in gravitationally lensed galaxies at z = 2.9.'' \\
-  2020 Aug & \textbf{Summer Undergraduate Research Program Poster Session, UofT/Online} \\*
-           & Poster presentation: ``Molecular gas in a gravitationally lensed galaxy group at z = 2.9.'' Awarded prize for one of top three posters. \\
+           & ``Molecular gas in gravitationally lensed galaxies at z = 2.9.'' \\
 \end{xltabular}
 
 
+\needspace{5\baselineskip}
+\vspace{-2mm}
+\section*{Posters}
+\hrulesp{-2mm}
+
+\begin{xltabular}{\textwidth}{lX}
+  2021 May & \textbf{Canadian Astronomical Society (CASCA) AGM, NRC Herzberg/Online} \\*
+           & ``Molecular gas in a gravitationally lensed galaxy group at z = 2.9.'' \\
+  2020 Aug & \textbf{Summer Undergraduate Research Program Poster Session, UofT/Online} \\*
+           & ``Molecular gas in a gravitationally lensed galaxy group at z = 2.9.'' Awarded prize for one of top three posters. \\
+\end{xltabular}
 
 
 % \needspace{5\baselineskip}
@@ -161,19 +192,20 @@ Astronomy \& Astrophysics, Statistics, Mathematics. Dean's List Scholar.
 % \end{xltabular}
 
 \needspace{5\baselineskip}
-\section*{Independent Software Projects}
-\hrulesp{2mm}
+\vspace{-2mm}
+\section*{Outreach}
+\hrulesp{-2mm}
 
-\begin{etaremune}
-\item Comprehensive scientific computing package for Rust: linear algebra, statistics, numerical optimization, linear models, and more. \url{github.com/al-jshen/compute} 
-\item Zero-dependency reverse-mode automatic differentiation package. \url{github.com/al-jshen/reverse} 
-\item Fast and easy random number generation in Rust with Wyrand. \url{github.com/al-jshen/alea} 
-% \item Orientation estimation on STM32 MCU (embedded system) with real-time visualizer. \url{github.com/al-jshen/rotvis}  
-\item Parallelized ray tracer for realistic scene rendering. \url{github.com/al-jshen/traycer} 
-\end{etaremune}
+\begin{xltabular}{\textwidth}{lX}
+  2019 - 2021 & \textbf{Space Science Journalist (Current in Space segment)}, \href{https://thestarspot.ca/}{\textit{The Star Spot} podcast} \\
+                 & Curate, write and record stories about the latest research and news in astronomy. Episodes 177 - end of show. \\
+  2015 - 2018 & \textbf{Python Workshop Lead}, Sir Winston Churchill Secondary, Vancouver, B.C. \\
+              & Coordinated and delivered workshops to prepare students for national programming contest.
+\end{xltabular}
 
-\needspace{7\baselineskip}
-\vspace{-7mm}
+
+\needspace{5\baselineskip}
+\vspace{-2mm}
 \section*{Media}
 \hrulesp{-2mm}
 
@@ -186,24 +218,20 @@ Astronomy \& Astrophysics, Statistics, Mathematics. Dean's List Scholar.
 
 
 \needspace{5\baselineskip}
-\section*{Outreach}
-\hrulesp{-2mm}
+\section*{Independent Software Projects}
+\hrulesp{2mm}
 
-\begin{xltabular}{\textwidth}{lX}
-  2019 - 2021 & \textbf{Space Science Journalist (Current in Space segment)}, \href{https://thestarspot.ca/}{\textit{The Star Spot} podcast} \\
-                 & Curate, write and record stories about the latest research and news in astronomy. Episodes 177 - end of show.
-\end{xltabular}
-
-\needspace{5\baselineskip}
-\section*{Volunteering}
-\hrulesp{-2mm}
-
-\begin{xltabular}{\textwidth}{lX}
-  2015 - 2018 & \textbf{Python Workshop Lead}, Sir Winston Churchill Secondary, Vancouver, B.C. \\
-              & Coordinated and delivered workshops to prepare students for national programming contest.
-\end{xltabular}
+\begin{etaremune}
+\item Comprehensive scientific computing package for Rust: linear algebra, statistics, numerical optimization, linear models, and more. \url{github.com/al-jshen/compute} 
+\item Zero-dependency reverse-mode automatic differentiation package. \url{https://github.com/al-jshen/reverse} 
+\item Fast and easy random number generation in Rust with Wyrand. \url{https://github.com/al-jshen/alea} 
+\item Experimental domain-specific language for statistical modelling. \url{https://github.com/al-jshen/talos} 
+% \item Orientation estimation on STM32 MCU (embedded system) with real-time visualizer. \url{https://github.com/al-jshen/rotvis}  
+\item Parallelized ray tracer for realistic scene rendering. \url{https://github.com/al-jshen/traycer} 
+\end{etaremune}
 
 \needspace{5\baselineskip}
+\vspace{-7mm}
 \section*{Technical Skills}
 \hrulesp{2mm}
 
