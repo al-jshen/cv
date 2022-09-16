@@ -1,17 +1,17 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.4.26)  19 JUL 2022 15:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.8.20)  30 AUG 2022 16:52
 entering extended mode
- restricted \write18 enabled.
+ \write18 enabled.
  %&-line parsing enabled.
 **main.tex
 (./main.tex
 LaTeX2e <2021-11-15> patch level 1
-L3 programming layer <2022-04-10>
-(/usr/share/texmf-dist/tex/latex/extsizes/extarticle.cls
+L3 programming layer <2022-02-24>
+(/usr/local/texlive/2022/texmf-dist/tex/latex/extsizes/extarticle.cls
 Document Class: extarticle 1996/10/08 v1.0 Non Standard LaTeX document class
-(/usr/share/texmf-dist/tex/latex/base/size10.clo
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/size10.clo
 File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 )
-(/usr/share/texmf-dist/tex/latex/base/exscale.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/exscale.sty
 Package: exscale 2018/09/24 v2.1i Standard LaTeX package exscale
 LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 57.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
@@ -32,17 +32,17 @@ LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 \belowcaptionskip=\skip48
 \bibindent=\dimen139
 )
-(/usr/share/texmf-dist/tex/latex/geometry/geometry.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
 
-(/usr/share/texmf-dist/tex/latex/graphics/keyval.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks16
 )
-(/usr/share/texmf-dist/tex/generic/iftex/ifvtex.sty
+(/usr/local/texlive/2022/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 
-(/usr/share/texmf-dist/tex/generic/iftex/iftex.sty
+(/usr/local/texlive/2022/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 ))
 \Gm@cnth=\count193
@@ -58,21 +58,21 @@ Package: iftex 2022/02/03 v1.0f TeX engine tests
 \Gm@layoutvoffset=\dimen147
 \Gm@dimlist=\toks17
 )
-(/usr/share/texmf-dist/tex/latex/tools/verbatim.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2020-07-07 v1.5u LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks18
 \verbatim@line=\toks19
 \verbatim@in@stream=\read2
 )
-(/usr/share/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
 
-(/usr/share/texmf-dist/tex/latex/graphics-cfg/color.cfg
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 227.
 
-(/usr/share/texmf-dist/tex/latex/graphics-def/pdftex.def
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 )
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1352.
@@ -85,100 +85,106 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
 
-(/usr/share/texmf-dist/tex/latex/xcolor/svgnam.def
+(/usr/local/texlive/2022/texmf-dist/tex/latex/xcolor/svgnam.def
 File: svgnam.def 2021/10/31 v2.13 Predefined colors according to SVG 1.1 (UK)
 ))
-(/home/js/texmf/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2020-05-15 v7.00e Hypertext links for LaTeX
+(/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2022-02-21 v7.00n Hypertext links for LaTeX
 
-(/usr/share/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+(/usr/local/texlive/2022/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
 )
-(/usr/share/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-(/usr/share/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+(/usr/local/texlive/2022/texmf-dist/tex/generic/infwarerr/infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-(/usr/share/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+(/usr/local/texlive/2022/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
 )
-(/usr/share/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+(/usr/local/texlive/2022/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
 )
-(/usr/share/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+(/usr/local/texlive/2022/texmf-dist/tex/generic/pdfescape/pdfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
 )
-(/usr/share/texmf-dist/tex/latex/hycolor/hycolor.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/hycolor/hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 )
-(/usr/share/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
 Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 )
-(/usr/share/texmf-dist/tex/latex/auxhook/auxhook.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/auxhook/auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
-(/usr/share/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
 )
 \@linkdim=\dimen148
 \Hy@linkcounter=\count196
 \Hy@pagecounter=\count197
 
-(/home/js/texmf/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2020-05-15 v7.00e Hyperref: PDFDocEncoding definition (HO)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2022-02-21 v7.00n Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-(/usr/share/texmf-dist/tex/generic/intcalc/intcalc.sty
+(/usr/local/texlive/2022/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-(/usr/share/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+(/usr/local/texlive/2022/texmf-dist/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
 \Hy@SavedSpaceFactor=\count198
-Package hyperref Info: Hyper figures OFF on input line 4464.
-Package hyperref Info: Link nesting OFF on input line 4469.
-Package hyperref Info: Hyper index ON on input line 4472.
-Package hyperref Info: Plain pages OFF on input line 4479.
-Package hyperref Info: Backreferencing OFF on input line 4484.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2022-02-21 v7.00n Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4137.
+Package hyperref Info: Link nesting OFF on input line 4142.
+Package hyperref Info: Hyper index ON on input line 4145.
+Package hyperref Info: Plain pages OFF on input line 4152.
+Package hyperref Info: Backreferencing OFF on input line 4157.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4717.
+Package hyperref Info: Bookmarks ON on input line 4390.
 \c@Hy@tempcnt=\count199
 
-(/usr/share/texmf-dist/tex/latex/url/url.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 5076.
+LaTeX Info: Redefining \url on input line 4749.
 \XeTeXLinkMargin=\dimen149
 
-(/usr/share/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/local/texlive/2022/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 
-(/usr/share/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+(/usr/local/texlive/2022/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
 \Fld@menulength=\count266
 \Field@Width=\dimen150
 \Fld@charsize=\dimen151
-Package hyperref Info: Hyper figures OFF on input line 6347.
-Package hyperref Info: Link nesting OFF on input line 6352.
-Package hyperref Info: Hyper index ON on input line 6355.
-Package hyperref Info: backreferencing OFF on input line 6362.
-Package hyperref Info: Link coloring OFF on input line 6367.
-Package hyperref Info: Link coloring with OCG OFF on input line 6372.
-Package hyperref Info: PDF/A mode OFF on input line 6377.
-LaTeX Info: Redefining \ref on input line 6417.
-LaTeX Info: Redefining \pageref on input line 6421.
+Package hyperref Info: Hyper figures OFF on input line 6027.
+Package hyperref Info: Link nesting OFF on input line 6032.
+Package hyperref Info: Hyper index ON on input line 6035.
+Package hyperref Info: backreferencing OFF on input line 6042.
+Package hyperref Info: Link coloring OFF on input line 6047.
+Package hyperref Info: Link coloring with OCG OFF on input line 6052.
+Package hyperref Info: PDF/A mode OFF on input line 6057.
+LaTeX Info: Redefining \ref on input line 6097.
+LaTeX Info: Redefining \pageref on input line 6101.
 
-(/usr/share/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/atbegshi-ltx.sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
@@ -188,10 +194,10 @@ package with kernel methods
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
-(/home/js/texmf/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2020-05-15 v7.00e Hyperref driver for pdfTeX
+(/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2022-02-21 v7.00n Hyperref driver for pdfTeX
 
-(/usr/share/texmf-dist/tex/latex/base/atveryend-ltx.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/atveryend-ltx.sty
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
 kage
 with kernel methods
@@ -199,10 +205,10 @@ with kernel methods
 \Fld@listcount=\count270
 \c@bookmark@seq@number=\count271
 
-(/usr/share/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
 
-(/usr/share/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+(/usr/local/texlive/2022/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
@@ -211,25 +217,26 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 \Hy@SectionHShift=\skip49
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 17.
-
-(/usr/share/texmf-dist/tex/latex/fontawesome/fontawesome.sty
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/fontawesome/fontawesome.sty
 Package: fontawesome 2016/05/15 v4.6.3.1 font awesome icons
 
-(/usr/share/texmf-dist/tex/generic/iftex/ifxetex.sty
+(/usr/local/texlive/2022/texmf-dist/tex/generic/iftex/ifxetex.sty
 Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
 )
-(/usr/share/texmf-dist/tex/generic/iftex/ifluatex.sty
+(/usr/local/texlive/2022/texmf-dist/tex/generic/iftex/ifluatex.sty
 Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
 )
-(/usr/share/texmf-dist/tex/latex/fontawesome/fontawesomesymbols-generic.tex)
-(/usr/share/texmf-dist/tex/latex/fontawesome/fontawesomesymbols-pdftex.tex))
-(/usr/share/texmf-dist/tex/latex/xltabular/xltabular.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/fontawesome/fontawesomesymbols-ge
+neric.tex)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/fontawesome/fontawesomesymbols-pd
+ftex.tex))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/xltabular/xltabular.sty
 Package: xltabular 2020/11/04 v0.2e `xltabular' package (hv,RN)
 
-(/usr/share/texmf-dist/tex/latex/tools/tabularx.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
 
-(/usr/share/texmf-dist/tex/latex/tools/array.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/tools/array.sty
 Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
 \col@sep=\dimen152
 \ar@mcellbox=\box50
@@ -247,10 +254,10 @@ Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
 \TX@cols=\count272
 \TX@ftn=\toks21
 )
-(/usr/share/texmf-dist/tex/latex/ltablex/ltablex.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/ltablex/ltablex.sty
 Package: ltablex 2014/08/13 v1.1 Modified tabularx
 
-(/usr/share/texmf-dist/tex/latex/tools/longtable.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
 \LTleft=\skip52
 \LTright=\skip53
@@ -269,7 +276,7 @@ Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
 \c@LT@chunks=\count277
 \LT@p@ftn=\toks22
 )))
-(/usr/share/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and foote
 rs
 \f@nch@headwidth=\skip56
@@ -282,17 +289,17 @@ rs
 \f@nch@O@olf=\skip63
 \f@nch@O@orf=\skip64
 )
-(/usr/share/texmf-dist/tex/latex/needspace/needspace.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/needspace/needspace.sty
 Package: needspace 2010/09/12 v1.3d reserve vertical space
 )
-(/usr/share/texmf-dist/tex/latex/etaremune/etaremune.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/etaremune/etaremune.sty
 Package: etaremune 2005/06/01 v1.2 Reversed enumerate (HA)
 
-(/usr/share/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
 
-(/usr/share/texmf-dist/tex/generic/xkeyval/xkeyval.tex
-(/usr/share/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+(/usr/local/texlive/2022/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2022/texmf-dist/tex/generic/xkeyval/xkvutils.tex
 \XKV@toks=\toks23
 \XKV@tempa@toks=\toks24
 )
@@ -302,14 +309,15 @@ File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 \c@EM@itemctr=\count279
 \c@EM@etaremunectr=\count280
 )
-(/usr/share/texmf-dist/tex/latex/setspace/setspace.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
-(/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2022-04-14 L3 backend support: PDF output (pdfTeX)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count281
 \l__pdf_internal_box=\box57
-) (./main.aux)
+)
+(./main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 66.
@@ -327,6 +335,8 @@ LaTeX Font Info:    ... okay on input line 66.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 66.
 LaTeX Font Info:    ... okay on input line 66.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 66.
 LaTeX Font Info:    ... okay on input line 66.
 
 *geometry* driver: auto-detecting
@@ -363,7 +373,7 @@ LaTeX Font Info:    ... okay on input line 66.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+(/usr/local/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count282
 \scratchdimen=\dimen160
@@ -378,13 +388,14 @@ LaTeX Font Info:    ... okay on input line 66.
 \everyMPtoPDFconversion=\toks26
 )
 Package hyperref Info: Link coloring ON on input line 66.
- (/home/js/texmf/tex/latex/hyperref/nameref.sty
-Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
-(/usr/share/texmf-dist/tex/latex/refcount/refcount.sty
+(/usr/local/texlive/2022/texmf-dist/tex/latex/refcount/refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 )
-(/usr/share/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+(/usr/local/texlive/2022/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
+ty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count288
@@ -392,15 +403,14 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 66.
 LaTeX Info: Redefining \pageref on input line 66.
 LaTeX Info: Redefining \nameref on input line 66.
-
-(./main.out) (./main.out)
+ (./main.out) (./main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
 
 LaTeX Font Info:    Trying to load font information for U+fontawesometwo on inp
 ut line 72.
 
-(/usr/share/texmf-dist/tex/latex/fontawesome/ufontawesometwo.fd
+(/usr/local/texlive/2022/texmf-dist/tex/latex/fontawesome/ufontawesometwo.fd
 File: ufontawesometwo.fd 2016/05/22 Font definitions for U/fontawesometwo.
 )
 ! Too many }'s.
@@ -415,11 +425,11 @@ LaTeX Font Info:    External font `cmex7' loaded for size
 (Font)              <5> on input line 96.
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 ! Illegal parameter number in definition of \Hy@tempa.
 <to be read again> 
                    m
-l.219 \end{xltabular}
+l.218 \end{xltabular}
                      
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
@@ -428,7 +438,7 @@ are all screwed up? I'm going to assume that you meant ##.
 ! Illegal parameter number in definition of \Hy@tempa.
 <to be read again> 
                    m
-l.219 \end{xltabular}
+l.218 \end{xltabular}
                      
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
@@ -437,7 +447,7 @@ are all screwed up? I'm going to assume that you meant ##.
 ! Illegal parameter number in definition of \Hy@tempa.
 <to be read again> 
                    m
-l.219 \end{xltabular}
+l.218 \end{xltabular}
                      
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
@@ -446,7 +456,7 @@ are all screwed up? I'm going to assume that you meant ##.
 ! Illegal parameter number in definition of \Hy@tempa.
 <to be read again> 
                    m
-l.219 \end{xltabular}
+l.218 \end{xltabular}
                      
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
@@ -455,7 +465,7 @@ are all screwed up? I'm going to assume that you meant ##.
 ! Illegal parameter number in definition of \Hy@tempa.
 <to be read again> 
                    m
-l.219 \end{xltabular}
+l.218 \end{xltabular}
                      
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
@@ -464,7 +474,7 @@ are all screwed up? I'm going to assume that you meant ##.
 ! Illegal parameter number in definition of \Hy@tempa.
 <to be read again> 
                    m
-l.219 \end{xltabular}
+l.218 \end{xltabular}
                      
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
@@ -475,24 +485,26 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 8792 strings out of 478238
- 143000 string characters out of 5850456
- 482169 words of memory out of 5000000
- 26891 multiletter control sequences out of 15000+600000
+ 11315 strings out of 478268
+ 178349 string characters out of 5846347
+ 499112 words of memory out of 5000000
+ 29381 multiletter control sequences out of 15000+600000
  471868 words of font info for 37 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,11n,63p,361b,487s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/share/
-texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}</usr/share/texmf-dis
-t/fonts/type1/public/fontawesome/FontAwesome.pfb></usr/share/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi
-10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/sh
-are/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmti10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmtt10.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb>
-Output written on main.pdf (2 pages, 138878 bytes).
+ 60i,11n,63p,361b,490s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
+}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo
+.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/fontawesome/FontAwe
+some.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmb
+x10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx
+12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi1
+0.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.
+pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pf
+b></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><
+/usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></
+usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></u
+sr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb>
+Output written on main.pdf (2 pages, 138951 bytes).
 PDF statistics:
  131 PDF objects out of 1000 (max. 8388607)
  78 compressed objects within 1 object stream
