@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.3.29)  24 APR 2024 23:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.3.29)  3 JUN 2024 14:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**main.tex
+**main
 (./main.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -413,9 +413,9 @@ You've closed more groups than you opened.
 Such booboos are generally harmless, so keep going.
 
 LaTeX Font Info:    External font `cmex7' loaded for size
-(Font)              <7> on input line 110.
+(Font)              <7> on input line 111.
 LaTeX Font Info:    External font `cmex7' loaded for size
-(Font)              <5> on input line 110.
+(Font)              <5> on input line 111.
 [1
 
 {/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
@@ -431,11 +431,11 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 Here is how much of TeX's memory you used:
  11531 strings out of 474116
  179582 string characters out of 5743682
- 1945187 words of memory out of 5000000
+ 1946187 words of memory out of 5000000
  33748 multiletter control sequences out of 15000+600000
  560338 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,79p,410b,442s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,79p,406b,442s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/fontawesome/FontAwesom
 e.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10
 .pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.
@@ -445,7 +445,7 @@ fb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
 /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></us
 r/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr
 /local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on main.pdf (2 pages, 129681 bytes).
+Output written on main.pdf (2 pages, 129710 bytes).
 PDF statistics:
  95 PDF objects out of 1000 (max. 8388607)
  70 compressed objects within 1 object stream
