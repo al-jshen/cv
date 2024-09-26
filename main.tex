@@ -66,6 +66,9 @@
 % comments
 \newcommand\hide[1]\null
 
+% forced indent
+\newcommand{\forceindent}{\leavevmode{\parindent=1em\indent}}
+
 \begin{document}
 
 \headerline{%
@@ -82,9 +85,9 @@
 
 \needspace{5\baselineskip}
 \vspace{-4mm}
-\section*{Research Interest}
+\section*{Research Interests}
 \hrulesp{2mm}
-I work with Shirley Ho and the Polymathic AI group at the Flatiron Institute on designing the architectures of multi-modal foundation models that can be fine-tuned to excel at a wide variety of downstream astronomical applications, as well as the techniques for performing distributed training of these models at scale. 
+I work with the Polymathic AI group on designing the architectures of multi-modal foundation models, building generative models for the physical sciences, and performing distributed training of these models at scale. 
 
 \needspace{5\baselineskip}
 \vspace{-5mm}
@@ -92,20 +95,20 @@ I work with Shirley Ho and the Polymathic AI group at the Flatiron Institute on 
 \hrulesp{2mm}
 
 \textbf{Ph.D., Princeton University.} Astrophysical Sciences. \hfill 2022 - 2027 \\
-\textbf{M.A., Princeton University.} Astrophysical Sciences. \hfill 2022 - 2024 \\
-\textbf{H.B.Sc., University of Toronto.} Astronomy \& Astrophysics and Statistics. \hfill 2018 - 2022 
+\forceindent Advisors: Shirley Ho, Romain Teyssier \\[0.4mm]
+\textbf{M.A., Princeton University.} Astrophysical Sciences. \hfill 2022 - 2024 \\[0.4mm]
+\textbf{H.B.Sc., University of Toronto.} Astronomy \& Astrophysics and Statistics. \hfill 2018 - 2022
 
 \needspace{5\baselineskip}
 \vspace{-4mm}
-\section*{Publications}
+\section*{Publications {\small \href{https://arxiv.org/search/advanced?advanced=&terms-0-operator=AND&terms-0-term=shen\%2Cjeff&terms-0-field=all&classification-computer_science=y&classification-physics=y&classification-physics_archives=astro-ph&classification-statistics=y&classification-include_cross_list=include&date-year=&date-filter_by=date_range&date-from_date=2020&date-to_date=&date-date_type=submitted_date&abstracts=show&size=50&order=-announced_date_first}{[arXiv]}}}
 \hrulesp{2mm}
 
-See publications on \href{https://arxiv.org/search/advanced?advanced=&terms-0-operator=AND&terms-0-term=shen\%2Cjeff&terms-0-field=all&classification-computer_science=y&classification-physics=y&classification-physics_archives=astro-ph&classification-statistics=y&classification-include_cross_list=include&date-year=&date-filter_by=date_range&date-from_date=2020&date-to_date=&date-date_type=submitted_date&abstracts=show&size=50&order=-announced_date_first}{arXiv}.
-
 \begin{etaremune}
+  % \item \textbf{Jeff Shen}, Francois Lanusse, et al. Token-Level Optimization for Inverse Problems with Continuous Transformer Models. In preparation.
+  \item The Multimodal Universe Collaboration, including \textbf{Jeff Shen} (2024). The Multimodal Universe: Enabling Large-Scale Machine Learning with 70TBs of Astronomical Scientific Data. Accepted at NeurIPS 2024 Track on Datasets and Benchmarks.
+  \item Ruben Ohana et al., including \textbf{Jeff Shen} (2024). The Well: a Large-Scale Collection of Diverse Physics Simulations for Machine Learning. Accepted at NeurIPS 2024 Track on Datasets and Benchmarks.
   \item Neige Frankel, David W. Hogg, Scott Tremaine, Adrian Price-Whelan, \textbf{Jeff Shen} (2024). Iron Snails: non-equilibrium dynamics and spiral abundance patterns. Submitted to ApJ. arXiv: \href{https://arxiv.org/abs/2407.07149}{2407.07149}.
-  % \item The Multimodal Universe Collaboration, including \textbf{Jeff Shen} (2024). The Multimodal Universe: Enabling Large-Scale Machine Learning with 70TBs of Astronomical Scientific Data. Submitted to NeurIPS 2024 Track on Datasets and Benchmarks.
-  % \item Ruben Ohana et al., including \textbf{Jeff Shen} (2024). The Well: a Large-Scale Collection of Diverse Physics Simulations for Machine Learning. Submitted to NeurIPS 2024 Track on Datasets and Benchmarks.
   \item \textbf{Jeff Shen}, Peter Melchior (2023). Multiscale Feature Attribution for Outliers. Accepted at NeurIPS Workshop on Machine Learning and the Physical Sciences on 27 Oct 2023. arXiv: \href{https://arxiv.org/abs/2310.20012}{2310.20012}.
   \item \textbf{Jeff Shen}, Joshua S. Speagle, J. Ted Mackereth, Yuan-Sen Ting, Jo Bovy (2023). Disentangling Stellar Age Estimates from Galactic Chemodynamical Evolution. ApJ 960 84. arXiv: \href{https://arxiv.org/abs/2305.15634}{2305.15634}.
   \item Yan Liang, Peter Melchior, ChangHoon Hanh, \textbf{Jeff Shen}, Andy Goulding, Charlotte Ward (2023). Outlier Detection in the DESI Bright Galaxy Survey. ApJL 956 L6. arXiv: \href{https://arxiv.org/abs/2307.07664}{2307.07664}.
@@ -151,7 +154,7 @@ See publications on \href{https://arxiv.org/search/advanced?advanced=&terms-0-op
 \hrulesp{-2mm}
 
 \begin{xltabular}{\textwidth}{lX}
-  2024 - 2027          & \textbf{NSERC Postgraduate Scholarship - Doctoral (PGSD)} \\*
+  2024 - 2027          & \textbf{NSERC Postgraduate Scholarship - Doctoral (PGS-D)} \\*
                        & Natural Sciences and Engineering Research Council of Canada \\
   2022 Jan             & \textbf{Astrostatistics Student Paper Competition Finalist} \\*
                        & Astrostatistics Interest Group of the American Statistical Association \\
@@ -242,7 +245,7 @@ See publications on \href{https://arxiv.org/search/advanced?advanced=&terms-0-op
 \section*{Technical Skills}
 \hrulesp{2mm}
 
-JAX, Stan, Pytorch, SQL, R, C++, Rust, \LaTeX, regex, bash, git, Docker, Javascript, React
+JAX, Pytorch, Rust, Stan, SQL, R, C++, \LaTeX, regex, bash, git, Docker, Javascript, React
 
 \needspace{5\baselineskip}
 \vspace{-3mm}
@@ -263,20 +266,20 @@ JAX, Stan, Pytorch, SQL, R, C++, Rust, \LaTeX, regex, bash, git, Docker, Javascr
 
 \begin{xltabular}{\textwidth}{lX}
   2019 - 2021 & \textbf{Space Science Journalist (Current in Space segment)}, \href{https://thestarspot.ca/}{\textit{The Star Spot} podcast} \\
-                 & Curate, write and record stories about the latest research and news in astronomy. Episodes 177 - end of show.
+                 & Write and record stories about the latest astronomy research. Episodes 177 - end of show.
 \end{xltabular}
 
-\needspace{5\baselineskip}
-\vspace{-5mm}
-\section*{Press}
-\hrulesp{-2mm}
+% \needspace{5\baselineskip}
+% \vspace{-5mm}
+% \section*{Press}
+% \hrulesp{-2mm}
 
-\begin{xltabular}{\textwidth}{lX}
-  2021 Jul & \textbf{National Ratio Astronomy Organization (NRAO) eNews} \\
-           & Digital newsletter feature: ``Molecular gas in high redshift galaxies''. \url{https://science.nrao.edu/enews/14.7/index.shtml#molecular_gas} \\
-  2020 Jul & \textbf{SURP Student of the Week Feature} \\
-           &  Interview: \url{https://www.dunlap.utoronto.ca/surp-sow/sow12020/}
-\end{xltabular}
+% \begin{xltabular}{\textwidth}{lX}
+%   2021 Jul & \textbf{National Ratio Astronomy Organization (NRAO) eNews} \\
+%            & Digital newsletter feature: ``Molecular gas in high redshift galaxies''. \url{https://science.nrao.edu/enews/14.7/index.shtml#molecular_gas} \\
+%   2020 Jul & \textbf{SURP Student of the Week Feature} \\
+%            &  Interview: \url{https://www.dunlap.utoronto.ca/surp-sow/sow12020/}
+% \end{xltabular}
 
 
 % \needspace{5\baselineskip}
