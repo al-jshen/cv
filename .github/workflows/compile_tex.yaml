@@ -6,6 +6,7 @@ on:
       - main
     paths-ignore:
       - 'main.pdf'     # avoids triggering the workflow from its own PDF commits
+  workflow_dispatch:
 
 permissions:
   contents: write   # needed for pushing commits
