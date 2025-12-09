@@ -3,7 +3,7 @@ name: Build LaTeX document
 on:
   push:
     branches:
-      - main
+      - master
     paths-ignore:
       - 'main.pdf'     # avoids triggering the workflow from its own PDF commits
   workflow_dispatch:
