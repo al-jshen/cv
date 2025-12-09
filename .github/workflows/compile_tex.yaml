@@ -1,19 +1,39 @@
 name: Build LaTeX document
 
-on: [push]
+on:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - 'main.pdf'     # avoids triggering the workflow from its own PDF commits
 
+permissions:
+  contents: write   # needed for pushing commits
+  
 jobs:
   build_latex:
     runs-on: ubuntu-latest
     steps:
       - name: Set up Git repository
         uses: actions/checkout@v6
+        with:
+          persist-credentials: true # needed for push
+          
       - name: Compile LaTeX document
         uses: xu-cheng/latex-action@v4
         with:
           root_file: main.tex
-      - name: Upload PDF file
-        uses: actions/upload-artifact@v5
-        with:
-          name: PDF
-          path: main.pdf
+
+      - name: Commit and push PDF
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Add and commit only if main.pdf changed
+          git add main.pdf
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Auto-update compiled PDF"
+            git push
+          fi
